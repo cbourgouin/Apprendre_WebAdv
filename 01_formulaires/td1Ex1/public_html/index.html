@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="formExo1.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <fieldset id="formiscr">
+            <legend>Formulaire d'inscription</legend>
+            <fieldset id="civi">
+                <legend>Civilités</legend>
+                <label for="famillyName" id="label-famillyName">Nom</label>
+                <input type="text" name="famillyName" id="famillyName" />
+                <label for="firstName" id="label-firstName">Prenom</label>
+                <input type="text" name="firstName" id="firstName" />
+                <label for="city" id="label-city" >Ville</label>
+                <select name="city" id="city">
+                    <option value="atr" selected="selected">Autre</option>
+                </select>
+                <label for="email" id="label-email" >Email</label>
+                <input type="email" name="email" id="email" />
+                <label for="site" id="label-site" >Site</label>
+                <input type="url" name="site" id="site" />
+                <label for="sex" id="label-sex" >Sex</label>
+                
+                <input type="radio" name="sex" id="sex1" value="H" />
+                <a class="nomSex">Masculin</a>
+                <input type="radio" name="sex" id="sex2" value="F" />
+                <a class="nomSex">Feminin</a>
+                <input type="radio" name="sex" id="sex3" value="NB" />
+                <a class="nomSex">Je ne souhaite pas le dire</a>
+                <label for="picture" id="label-picture" >Photo</label>
+                <input type="file" name="picture" id="picture" />
+
+            </fieldset>
+            <fieldset id="savo">
+                <legend>Savoirs</legend>
+                <label for="systeme" id="label-systeme" >Systeme d'exploitation</label>
+                <select name="systeme" id="systeme">
+                    <option value="atr" selected="selected">Sélectionnez un SE</option>
+                    <option value="lin">Linux</option>
+                    <option value="win">Windows</option>
+                    <option value="mac">MAC OS</option>
+                </select>
+                <label for="version" id="label-version" >Systeme d'exploitation</label>
+                <select name="version" id="version">
+                     
+                </select>
+                <label for="language" id="label-language" >Language de programmation</label>
+                <label for="chkJava" id="label-java" >JAVA</label>
+                <input type="checkbox" name="chkJava" id="chkJava" value="java" />
+                <label for="chkC" id="label-c" >C</label>
+                <input type="checkbox" name="chkC" id="chkC" value="c" />
+                <label for="chkPhp" id="label-php" >PHP</label>
+                <input type="checkbox" name="chkPhp" id="chkPhp" value="php" />
+                <label for="chkAutre" id="label-autre" >Autre</label>
+                <input type="checkbox" name="chkAutre" id="chkAutre" value="atr" />
+                
+                
+            </fieldset>
+            <fieldset>
+                <legend>Paramètres de connexion</legend>
+
+            </fieldset>
+        </fieldset>
+    </body>
+</html>
