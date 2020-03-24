@@ -102,3 +102,8 @@ input, select{
     bottom: 185px;
     left: 200px;
 }
+
+#errorMsg {
+    font-size: 10px;
+    color: red;
+}
