@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 mars 2020, 10:39:42
+    Author     : cbourgouin
+*/
+
+input, select{
+    display: block;
+    position: relative;
+    left: 70px;
+    bottom: 25px;
+}
+
+.nomSex{
+    position: relative;
+    left: 100px;
+    bottom: 42px;
+}
+
+#label-picture{
+    position: relative;
+    right: 205px;
+}
+
+#label-sex{
+    position: relative;
+    top: 33px;
+}
+
+#formiscr{
+    background-color: #dbdbdb;
+    height: 750px;
+}
+
+#civi{
+    background-color: #ffecd3;
+    display: inline;
+    width: 45%;
+}
+
+#savo{
+    background-color: #c5ffc5;
+    display: inline;
+    width: 45%;
+    margin-left: 3%;
+    position: relative;
+    bottom: 178px;
+    height: 435px;
+    
+}
+
+#chkAutre, #chkC, #chkPhp, #chkJava{
+    position: relative;
+    top: 20px;
+    
+}
+
+#label-autre, #label-c, #label-java, #label-php{
+    position: relative;
+    top: 43px;
+    
+}
+
+#label-java{
+    right: 240px;
+}
+
+#systeme{
+    position: relative;
+    left: 200px;
+}
+
+#label-version, #version{
+    position: relative;
+    left: 475px;
+    bottom: 60px;
+}
+
+#para{
+    bottom: 178px;
+    position: relative;
+    height: 200px;
+    background-color: #fffacd;
+}
+
+#login, #password, #passwordBis {
+    position: relative;
+    left: 150px;
+}
+
+#inscription {
+    position: relative;
+    bottom: 160px;
+}
+
+#reset {
+    position: relative;
+    bottom: 185px;
+    left: 200px;
+}
+
+#errorMsg {
+    font-size: 10px;
+    color: red;
+}
+
+#sbm {
+    position: relative;
+    bottom: 159px;
+}
